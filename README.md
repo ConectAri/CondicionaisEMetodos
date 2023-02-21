@@ -20,6 +20,20 @@ Por exemplo, se você quiser retornar o produto de 3 e 4, o resultado seria 12, 
 
 calculaMediaPonderada(): recebe 2 notas (reais) e seus respectivos pesos (inteiros) como parâmetros e retorna a média ponderada dos valores;
 
+OBSERVAÇÃO:
+
+Neste exercício aproveitei para mostrar a diferença dos métodos: <h2> input.nextLine()  e  Integer.parseInt() </h2>
+
+Integer.parseInt(input.nextLine()) é uma expressão em Java que converte uma string que representa um número inteiro em um valor do tipo int.
+
+Vamos entender essa expressão em partes:
+
+input.nextLine() é um método da classe Scanner que lê uma linha de entrada do usuário a partir do teclado e a retorna como uma string.
+Integer.parseInt() é um método da classe Integer que converte uma string que representa um número inteiro em um valor do tipo int.
+Dessa forma, Integer.parseInt(input.nextLine()) realiza a leitura de uma linha de entrada do usuário e a converte em um valor do tipo int.
+
+Essa expressão é comumente usada para fazer a leitura de valores inteiros digitados pelo usuário a partir do teclado
+
 ===========================================================================================
 
 3 - Altere o programa do exercício 2 para que ele utilize a função calcula_produto do exercício 1 no cálculo da média ponderada;
