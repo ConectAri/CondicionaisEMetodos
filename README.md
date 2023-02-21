@@ -15,23 +15,25 @@ calculaMedia(): recebe 2 números inteiros como parâmetros e retorne a média d
 
 calculaMediaPonderada(): recebe 2 notas (reais) e seus respectivos pesos (inteiros) como parâmetros e retorna a média ponderada dos valores;
 
+===========================================================================================
 
 3 - Altere o programa do exercício 2 para que ele utilize a função calcula_produto do exercício 1 no cálculo da média ponderada;
 
-
+===========================================================================================
 
 4 - Altere o programa do exercício 3 para que ele processe os dados de 2 alunos ao invés de apenas 1;
 
-
+===========================================================================================
 
 5 - Implemente, utilizando funções, um programa que receba do usuário o valor do salário bruto de um funcionário e imprima o valor com descontos de INSS, FGTS e Plano de Saúde. O programa deve utilizar uma função para calcular cada um dos descontos, sendo que estas funções devem receber o valor do salário bruto e retornar o valor a ser descontado. Os valores descontados devem ser:
 
 INSS: 10% do valor bruto; FGTS: 8%; Plano de Saúde: R$100,00.
 
-
+===========================================================================================
 
 6 - Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: -> A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; -> A mensagem "Reprovado", se a média for menor do que sete; -> A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
+===========================================================================================
 
 7 - A empresa X resolveu dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
 
@@ -54,6 +56,7 @@ O valor do aumento;
 
 O novo salário, após o aumento.
 
+===========================================================================================
 
 8 - Faça um programa para o cálculo de uma folha de pagamento,
 
