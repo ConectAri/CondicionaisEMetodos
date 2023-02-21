@@ -7,7 +7,7 @@
 calculaMedia(): recebe 2 números inteiros como parâmetros e retorne a média dos números; calculaProduto(): recebe 2 números inteiros como parâmetros e retorna o produto dos números;
 
 
-=============================================================================
+========================================================================================
 
 
 
