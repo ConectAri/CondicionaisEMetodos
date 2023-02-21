@@ -6,6 +6,11 @@
 
 calculaMedia(): recebe 2 números inteiros como parâmetros e retorne a média dos números; calculaProduto(): recebe 2 números inteiros como parâmetros e retorna o produto dos números;
 
+OBSERVAÇÃO:
+
+Retornar o produto de um número significa calcular o resultado da multiplicação desse número por outro número. Em outras palavras, se você tiver um número x e outro número y, o produto de x e y seria x vezes y, ou seja, xy.
+
+Por exemplo, se você quiser retornar o produto de 3 e 4, o resultado seria 12, pois 3 vezes 4 é igual a 12. Em notação matemática, isso seria escrito como 3 x 4 = 12.
 
 ===========================================================================================
 
