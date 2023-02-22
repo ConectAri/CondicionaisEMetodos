@@ -48,6 +48,37 @@ Essa expressão é comumente usada para fazer a leitura de valores inteiros digi
 
 INSS: 10% do valor bruto; FGTS: 8%; Plano de Saúde: R$100,00.
 
+OBSERVAÇÃO:
+
+Neste exercício foi utilizado o <h1>%.2f</h1>
+
+O % é um caractere especial utilizado na formatação de strings em Java (e em outras linguagens de programação também). Quando utilizado em conjunto com a letra f, indica que um número de ponto flutuante (float ou double) deve ser formatado como uma string.
+
+O .2 indica o número de casas decimais que devem ser exibidas após o ponto. Ou seja, no caso do % .2f, o número de ponto flutuante será formatado com duas casas decimais.
+
+Assim, o código "%.2f" indica que a string deve conter um número de ponto flutuante com duas casas decimais. No exemplo do programa que eu forneci anteriormente, este código é utilizado na função printf para formatar a saída dos valores dos salários com duas casas decimais após o ponto, deixando o valor mais legível para o usuário.
+
+
+<h1>Parte do código: </h1>
+
+  Com <h1>%.2f</h1>
+  System.out.printf("\nSalário Bruto: R$%.2f", salarioBruto);
+  
+  Sem <h1>%.2f</h1>
+  System.out.println(" Salário Bruto: R$ " + salarioBruto);
+  
+  Sem <h1>Resultado no Console:</h1>
+  
+  Resultado de como sai a formatação:
+  
+  Com <h1>%.2f</h1>
+  Salário Bruto: R$2000,00
+  
+  Sem  <h1>%.2f</h1>
+  Salário Bruto: R$ 2000.0
+
+
+
 ===========================================================================================
 
 6 - Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: -> A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; -> A mensagem "Reprovado", se a média for menor do que sete; -> A mensagem "Aprovado com Distinção", se a média for igual a dez.
